@@ -11,7 +11,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://frontend-blog-w8g6.onrender.com',
   credentials: true, // Allow sending cookies
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
