@@ -1,0 +1,4 @@
+.env
+# Ignore mongodb memory server cache
+backend/node_modules/.cache/
+node_modules

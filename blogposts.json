@@ -1,0 +1,21 @@
+[
+    {
+      "title": "10 Healthy Eating Tips",
+      "content": "Eating healthy is essential for overall well-being. Here are 10 tips to maintain a balanced diet...",
+      "author": { "username": "john snow" },
+      "likes": 5
+    },
+    {
+      "title": "The Importance of Hydration",
+      "content": "Drinking enough water is crucial for bodily functions. Learn why staying hydrated is important...",
+      "author": { "username": "mark" },
+      "likes": 8
+    },
+    {
+      "title": "5 Exercises for a Stronger Core",
+      "content": "A strong core improves posture and stability. Try these 5 exercises for a stronger midsection...",
+      "author": { "username": "jane" },
+      "likes": 12
+    }
+  ]
+  
