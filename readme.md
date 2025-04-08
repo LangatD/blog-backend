@@ -14,49 +14,61 @@ A full-stack blog application focused on health and wellness topics, built with 
   - Secure JWT-based registration/login
   - Protected routes for authenticated users
 - **Blog Management**
-  - Create/Edit/Delete blog posts
-  - Rich text content support
+  - Create blog posts
   - Image upload for posts
-- **Social Features**
   - Like posts
   - Search functionality
   - Author profiles
 - **Responsive Design**
-  - Mobile-first approach
+  - Responsive frontend built with React.
   - Clean and modern UI
 
 ## Technologies
-
-**Frontend**  
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
-![React Router](https://img.shields.io/badge/-React_Router-CA4245)
-![Axios](https://img.shields.io/badge/-Axios-5A29E4)
-
-**Backend**  
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?logo=express)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white)
-
-**Other**  
-![JWT](https://img.shields.io/badge/-JWT-000000?logo=json-web-tokens)
-![Bcrypt](https://img.shields.io/badge/-Bcrypt-525252)
-![Render](https://img.shields.io/badge/-Render-46E3B7?logo=render)
+- **Frontend:** React, JavaScript, HTML, CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB 
+- **Authentication:** JSON Web Tokens (JWT), bcrypt for password hashing
+- **Deployment:** Render 
+- **Testing:** Jest
 
 ## Installation
 
 ### Prerequisites
 - Node.js v16+
-- MongoDB Atlas account or local MongoDB
+- MongoDB Atlas account
 - Git
+- Render
 
 ### Backend Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd mern-blog/backend
+   
+2. Install Dependencies
 ```bash
-cd backend
+cd Backend
 npm install
 
-# Create .env file
-echo "MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-PORT=5000" > .env
+3.Set up environmental variables # Create .env file
 
-npm run dev
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+PORT=5000
+4. RUn the backedn
+npm start
+
+### Frontend Setup
+1. Navigate to the Frontend Directory and install dependecies
+```bash
+cd ../frontend
+npm install
+2
+REACT_APP_API_URL=http://localhost:5000
+3. trrun frontend
+npm start
+to run frontend tests
+npm test
+
+## License
+This project is licensed under the MIT License. 
