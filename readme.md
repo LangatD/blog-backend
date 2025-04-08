@@ -66,11 +66,11 @@ A full-stack blog application focused on health and wellness topics, built with 
 http://localhost:5000
 
 3.Run frontend
-  ``bash
+  ```bash
   npm start
   ```
 4.To run frontend tests
-  ``bash
+  ```bash
   npm test
   ```
 
