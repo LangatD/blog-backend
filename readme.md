@@ -1,12 +1,6 @@
 # Healthy Living Blog - MERN Stack
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()
-[![MERN](https://img.shields.io/badge/stack-MERN-00f.svg)](https://www.mongodb.com/mern-stack)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A full-stack blog application focused on health and wellness topics, built with the MERN stack (MongoDB, Express, React, Node.js).
-
-![Demo Screenshot](/screenshots/demo.png) <!-- Add your screenshot path -->
 
 ## Features
 
@@ -40,35 +34,45 @@ A full-stack blog application focused on health and wellness topics, built with 
 - Render
 
 ### Backend Setup
-1. **Clone the Repository:**
+1. Clone the Repository
    ```bash
    git clone https://github.com/<your-username>/<your-repo>.git
    cd mern-blog/backend
+   ```
    
 2. Install Dependencies
-```bash
-cd Backend
-npm install
+  ```bash
+  cd Backend
+  npm install
+ ```
 
-3.Set up environmental variables # Create .env file
+3.Set up environmental variables, create .env file with:
 
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-PORT=5000
-4. RUn the backedn
-npm start
+ - MONGO_URI=your_mongodb_uri
+ - JWT_SECRET=your_jwt_secret
+ - PORT=5000
+4. Run the backend
+  ```bash
+  npm start
+  ```
 
 ### Frontend Setup
 1. Navigate to the Frontend Directory and install dependecies
-```bash
-cd ../frontend
-npm install
-2
-REACT_APP_API_URL=http://localhost:5000
-3. trrun frontend
-npm start
-to run frontend tests
-npm test
+ ```bash
+ cd ../frontend
+ npm install
+ ```
+2. Replace the backend url with
+http://localhost:5000
+
+3.Run frontend
+  ``bash
+  npm start
+  ```
+4.To run frontend tests
+  ``bash
+  npm test
+  ```
 
 ## License
 This project is licensed under the MIT License. 
